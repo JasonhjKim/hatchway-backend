@@ -1,11 +1,5 @@
 const fs = require('fs')
 const util = require('util');
-const paths = [
-    { title: "students", path: "./data/students.csv" },
-    { title: "marks", path: "./data/marks.csv" },
-    { title: "courses", path: "./data/courses.csv" },
-    { title: "tests", path: "./data/tests.csv" },
-]
 
 /**
  * Function takes string as parameter to parse csv to js object
