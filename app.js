@@ -147,6 +147,8 @@ var createTextFile = function(data) {
         }
         file.end();
     })
+
+    console.log("File has been created: report_card.txt")
 }
 
 /**
@@ -164,4 +166,4 @@ function getAvg(arr) {
 
 
 
-console.log(parseStudent(mainStudents, mainMarks, mainTests, mainCourses));
+parseStudent(mainStudents, mainMarks, mainTests, mainCourses);
